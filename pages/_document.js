@@ -115,6 +115,8 @@ class MyDocument extends Document {
             }
           `}
           </style>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6022653118391745"
+     crossorigin="anonymous"></script>
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />
