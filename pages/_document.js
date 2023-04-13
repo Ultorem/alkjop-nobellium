@@ -56,7 +56,7 @@ class MyDocument extends Document {
             </>
               )}
 
-          {['zh', 'ja', 'ko, no'].includes(
+          {['zh', 'ja', 'ko', 'no'].includes(
             config.lang.slice(0, 2).toLocaleLowerCase()
           ) && (
             <>
