@@ -72,7 +72,7 @@ Unofficial, thanks to [@Vaayne](https://github.com/craigary/nobelium/pull/157)'s
 
 ### Build Docker image yourself
 ```
-# set env
+# set .env
 export NOTION_PAGE_ID=xxx # your NOTION_PAGE_ID
 export IMAGE=nobelium:latest
 
