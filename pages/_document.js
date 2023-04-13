@@ -16,7 +16,7 @@ class MyDocument extends Document {
     }[config.appearance]
 
     return (
-      <Html lang={config.lang} className={cn(initialColorScheme)}>
+      <Html lang="no">
         <Head>
           {config.font && config.font === 'serif'
             ? (
