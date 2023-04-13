@@ -26,7 +26,7 @@ export default function Blog ({ postsToShow, page, showNext }) {
 
   return (
 <Container title={title} description={description}>
-  <h1>Fiskeblogg</h1>
+  <h1 class="w-full font-bold text-3xl text-black dark:text-white max-w-2xl px-4">Fiskeblogg</h1>
   {postsToShow.map(post => (
     <BlogPost key={post.id} post={post} />
   ))}
