@@ -1,19 +1,12 @@
-import Script from 'next/script'
-import { useConfig } from '@/lib/config'
+import Script from "next/script";
+import { useConfig } from "@/lib/config";
 
 const Scripts = () => {
-  const BLOG = useConfig()
+  const BLOG = useConfig();
 
   return (
     <>
-      {BLOG.analytics && BLOG.analytics.provider === 'ackee' && (
-        <Script
-          src={BLOG.analytics.ackeeConfig.tracker}
-          data-ackee-server={BLOG.analytics.ackeeConfig.dataAckeeServer}
-          data-ackee-domain-id={BLOG.analytics.ackeeConfig.domainId}
-        />
-      )}
-      {BLOG.analytics && BLOG.analytics.provider === 'ga' && (
+      {BLOG.analytics && BLOG.analytics.provider === "ga" && (
         <>
           <Script
             src={`https://www.googletagmanager.com/gtag/js?id=${BLOG.analytics.gaConfig.measurementId}`}
@@ -29,7 +22,7 @@ const Scripts = () => {
         </>
       )}
     </>
-  )
-}
+  );
+};
 
-export default Scripts
+export default Scripts;
