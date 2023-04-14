@@ -117,6 +117,7 @@ class MyDocument extends Document {
           </style>
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6022653118391745"
      crossorigin="anonymous"></script>
+     <meta name="msvalidate.01" content="B598D00BA529A3B5853CD0F071FCE74D" />
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />
