@@ -1,8 +1,8 @@
 const BLOG = {
-  title: "FISKJA",
-  author: "Fiskja.com",
+  title: "ALKJØP.NO",
+  author: "Alkjop.no",
   email: "fiskja-kontakt@gmail.com",
-  link: "https://fiskja.com",
+  link: "https://alkjop.no",
   description: "Sikre deg de beste fisketipsene på nettet!",
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: "CET", // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
@@ -18,7 +18,7 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: "https://og-image-craigary.vercel.app", // The link to generate OG image, don't end with a slash
-  socialLink: "https://twitter.com/fiskja",
+  socialLink: "https://twitter.com/alkjop",
   seo: {
     keywords: ["Blog", "Website", "Notion"],
     googleSiteVerification: "", // Remove the value or replace it with your own google site verification code
@@ -28,7 +28,7 @@ const BLOG = {
   analytics: {
     provider: "ga", // Currently we support Google Analytics, please fill with 'ga', leave it empty to disable it.
     gaConfig: {
-      measurementId: "G-8M5GVH1B4T", // e.g: G-XXXXXXXXXX
+      measurementId: "G-8KBT96555S", // e.g: G-XXXXXXXXXX
     },
   },
   comment: {
